@@ -147,15 +147,15 @@
 </style>
 <body>
     <header id="header">
-        <h1>b言b语</h1>
+        <h1>JOLIE无状态</h1>
     </header>
     <main id="app">
         <aside>
             <p id="describe">
-                可以在这里简单介绍你自己
+                我有一双会劳动会学习的手。 张开是祈求，合起来是意志。 更何况，我还有头脑与微笑呢。
             </p>
         </aside>
-        <p class="tip">现在总共 b 了 {{count}} 条</p>
+        <p class="tip">至今已经有 {{count}} 颗</p>
         <section class="item" v-for="item in contents" v-cloak>
             <p v-html='item.attributes.content'></p>
             <time v-bind:datetime="item.attributes.time">{{item.attributes.time}}</time>
